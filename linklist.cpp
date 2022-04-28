@@ -57,7 +57,7 @@ class node{
   void insertany(node* &head,int p,int posi){
 	node* node1=new node(p);	
 	node* temp=head;
-	for(int i=1;i<posi-1;i++)
+	for(int i=0;i<posi-1;i++)
 	  {
 	    temp=temp->next;
           }
